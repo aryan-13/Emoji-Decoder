@@ -6,6 +6,11 @@ var emojis = {
   "😔": "Sad",
   "🥡": "Takeout box",
   "❤️": "Love",
+  "😴": "Sleepy",
+  "😎": "Cool",
+  "🤒": "Sick",
+  "👿": "Angry",
+  "🥰": "Feeling loved",
   "😑": "Annoyance"
 };
 const emoArr = Object.keys(emojis);
@@ -46,6 +51,7 @@ export default function App() {
         placeholder="Type your emojis here!"
         style={{ marginBottom: "10px" }}
         onChange={inputHandler}
+        className="input-bar"
       />
 
       <h3
